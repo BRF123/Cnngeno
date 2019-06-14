@@ -35,4 +35,4 @@ Run the following program in the custom path <br/>
 * python 3.train_cnn_boot.py X_train train_label noise list_lr list_batch list_epoch X_test test_label
 ### Using a trained network for calling genotype of deletions & Generating VCF File
 * python 2.cuda_normalization.py image_label_list file_dir X_test test_label test
-* python test_cnn.py X_test test_label
+* python 4.test_cnn.py X_test test_label
