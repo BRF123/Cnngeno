@@ -32,8 +32,7 @@ Run the following program in the custom path <br/>
 * python 1.split_train_test.py img_path all_path/all_txt train_path/train_txt test_path/test_txt reset
 ### Training CNN
 * python 2.cuda_normalization.py image_label_list file_dir X_train train_label train
-* python 31.train_cnn.py X_train train_label
-* python 32.train_cnn_boot.py X_train train_label noise list_lr list_batch list_epoch X_test test_label
+* python 3.train_cnn_boot.py X_train train_label noise list_lr list_batch list_epoch X_test test_label
 ### Using a trained network for calling genotype of deletions & Generating VCF File
 * python 2.cuda_normalization.py image_label_list file_dir X_test test_label test
 * python test_cnn.py X_test test_label
